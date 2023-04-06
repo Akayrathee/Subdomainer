@@ -22,6 +22,13 @@ And it should work in other security distributions like:
 - ParrotOS
 - BackBox
 
+# Latest Add by @iamaakashrathee
+
+Earlier there were very fabulous tools were integrated by CyberGuy, now I added assetfinder also in the list to grab the subdomains. So enjoy the work.
+
+You can follow me on twitter @iamaakashrathee.
+
+
 # Tool Mechanism:
 
 <div align="center">
