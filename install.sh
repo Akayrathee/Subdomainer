@@ -61,6 +61,9 @@ sudo apt -y install golang
 section "Installing Additional Packages"
 sudo apt -y install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev build-essential libssl-dev libffi-dev python-dev libldns-dev jq ruby-full python3-setuptools python3-dnspython rename findutils
 
+## Install Assetfinder
+go get -u github.com/tomnomnom/assetfinder
+
 # Install Sublist3r
 section "Sublist3r Installing"
 git clone https://github.com/aboul3la/Sublist3r.git
@@ -78,3 +81,6 @@ git clone https://github.com/guelfoweb/knock.git
 cd knock || { echo "Error: Unable to change to knock directory."; exit 1; }
 sudo python3 setup.py install
 cd ../ || { echo "Error: Unable to return to the parent directory.";
+
+
+## Install 

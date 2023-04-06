@@ -169,6 +169,21 @@ gobus() {
 
 }
 
+af() {
+
+   printf "
+
+\e[96m##################################################\e[0m
+   \e[96mAsset Finder Is Working On\e[0m \e[31m$domains\e[0m
+\e[96m##################################################\e[0m
+
+"
+
+   assetfinder -subs-only $domains > $domains/$date/$domains-assetfinder.txt
+
+}
+
+
 ams() {
 
    printf "
